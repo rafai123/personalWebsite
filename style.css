@@ -42,3 +42,9 @@ nav .logo {
 .container-nav-menu > .active {
     border-bottom: 5px solid #E82222;
 }
+
+.container-nav-menu > a:hover {
+    border-bottom: 5px solid black;
+    color: #E82222;
+    transition: all .3s;
+}
