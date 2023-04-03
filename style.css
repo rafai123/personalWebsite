@@ -2,10 +2,20 @@
 
 * {
     font-family: 'Poppins', sans-serif;
+    /* border: 1px solid black; */
+}
+
+.container-utama {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 nav {
-    display: flex;
+    /* display: flex; */
+    
+    /* justify-content: space-between; */
 }
 
 nav .logo {
@@ -13,4 +23,22 @@ nav .logo {
     font-weight: 600;
     font-size: 32px;
     letter-spacing: 10%;
+}
+
+.container-nav-menu {
+    display: flex;
+    align-items: center;
+    width: 35%;
+    /* padding: 0 5%; */
+    justify-content: space-around;
+}
+
+.container-nav-menu > a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+}
+
+.container-nav-menu > .active {
+    border-bottom: 5px solid #E82222;
 }
