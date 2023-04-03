@@ -3,3 +3,14 @@
 * {
     font-family: 'Poppins', sans-serif;
 }
+
+nav {
+    display: flex;
+}
+
+nav .logo {
+    color: #E82222;
+    font-weight: 600;
+    font-size: 32px;
+    letter-spacing: 10%;
+}
