@@ -5,14 +5,18 @@
 }
 
 .content-blog {
+  margin-top: 5px;
   width: 100%;
   display: flex;
   align-items: space-between;
   justify-content: space-between;
+  padding: 5px 0;
+  border-top: 1.5px solid black;
+  /* border-bottom: 1px solid #e82222 ; */
 }
 
 .left-side-blog {
-  flex-grow: 5;
+  flex-grow: 10;
 }
 
 .title-blog {
@@ -30,6 +34,8 @@
   flex-grow: 1;
   display: flex;
   justify-content: end;
+  width: 500px;
+  height: 200px;
 }
 
 .link-full-blog a {
