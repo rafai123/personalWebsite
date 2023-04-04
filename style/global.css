@@ -75,44 +75,7 @@ nav a:hover {
   font-size: 24px;
 }
 
-.button-hero {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: #e82222;
-  width: 23%;
-  margin-top: 30px;
 
-  color: #fff;
-  border-radius: 5px;
-}
-
-.button-hero > a {
-  text-decoration: none;
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 2px;
-  font-size: 20px;
-  padding: 13px 20px;
-}
-
-.button-hero:hover {
-  /* border: 5px solid black; */
-  transition: all 0.1s;
-  box-shadow: 2px 2px 7px black;
-}
-
-.container-foto {
-  width: 50%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.container-profile {
-  box-shadow: 10px 10px 0.2px #e82222;
-  border-radius: 10%;
-}
 
 .radius {
   border-radius: 10px;
