@@ -1,14 +1,15 @@
 /* Portofolio */
 .card-portofolio {
-    border: 2px solid #e82222;
-    border-radius: 5px;
-    /* padding: 20px; */
-    /* padding: 20px; */
-    width: 300px;
-    margin-right: 15px;
-    padding-bottom: 5px;
-  }
-  
-  .image-cover {
-    object-fit: cover;
-  }
+  border: 2px solid #e82222;
+  border-radius: 5px;
+  /* padding: 20px; */
+  /* padding: 20px; */
+  width: 30%;
+  margin-right: 15px;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+.image-cover {
+  object-fit: cover;
+}

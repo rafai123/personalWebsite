@@ -161,6 +161,10 @@ aside i {
   width: 70px;
 }
 
+.wrap {
+  flex-wrap: wrap;
+}
+
 .container-card {
   padding-top: 25px;
   margin: auto;
