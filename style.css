@@ -240,3 +240,24 @@ aside i {
     margin-top: 10px;
     width: 30px;
 }
+
+.padding-20 {
+    padding-top: 20px ;
+}
+
+/* Pendidikan */
+.container-card-left {
+    padding-top: 25px;
+    /* margin: auto; */
+    display: flex;
+    /* justify-content: space-around; */
+    width: 70%;
+}
+
+.card-pendidikan {
+    border: 2px solid #e82222;
+    border-radius: 5px;
+    padding: 10px;
+    width: 300px;
+    margin-right: 15px ;
+}
