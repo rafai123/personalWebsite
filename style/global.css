@@ -180,6 +180,10 @@ aside i {
   width: 450px;
   margin-right: 15px;
 }
+.shadow {
+  box-shadow: 1px 1px 10px rgba(0, 0, 0, .3);
+}
+
 .title-card {
   margin-bottom: 5px;
   font-size: 20px;
