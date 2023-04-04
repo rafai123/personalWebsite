@@ -209,6 +209,7 @@ aside i {
   padding-top: 50px;
   width: 70%;
   margin: auto;
+  padding-bottom: 50px;
 }
 
 .text-aboutme {
@@ -236,10 +237,10 @@ aside i {
   font-size: 20px;
 }
 
-.logo-card > img {
+/* .logo-card > img {
   margin-top: 10px;
   width: 30px;
-}
+} */
 
 .padding-20 {
   padding-top: 20px;
@@ -260,4 +261,87 @@ aside i {
   padding: 10px;
   width: 300px;
   margin-right: 15px;
+}
+
+.input-bar {
+  border: 2px solid #e82222;
+  border-radius: 5px;
+  padding: 5px 10px;
+  width: 50%;
+}
+
+.button-normal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e82222;
+  width: 15%;
+  margin-top: 30px;
+
+  color: #fff;
+  border-radius: 5px;
+
+  font-weight: 600;
+  letter-spacing: 2px;
+  font-size: 18px;
+  padding: 8px 15px;
+}
+
+/* .button-normal {
+  /* text-decoration: none; */
+  /* color: #fff; */
+   */
+/* } */
+
+.button-normal:hover {
+  /* border: 5px solid black; */
+  transition: all 0.1s;
+  box-shadow: 2px 2px 7px black;
+}
+
+button {
+  background: none;
+  color: inherit;
+  border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}
+
+
+/* Portofolio */
+.card-portofolio {
+  border: 2px solid #e82222;
+  border-radius: 5px;
+  /* padding: 20px; */
+  /* padding: 20px; */
+  width: 300px;
+  margin-right: 15px;
+  padding-bottom: 5px;
+}
+.title-card {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
+
+.logo-card {
+  display: flex;
+  align-items: space-around;
+}
+
+.logo-card > img {
+  margin: 10px 5px 0 3px;
+  width: 30px;
+}
+
+.image-cover {
+  object-fit: cover;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
