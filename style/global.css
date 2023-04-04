@@ -286,3 +286,6 @@ button {
   align-items: center;
   text-align: center;
 }
+.image-cover {
+  object-fit: cover;
+}
