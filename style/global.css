@@ -60,26 +60,7 @@ nav a:hover {
 }
 /* end Style Navbar */
 
-.container-hero {
-  margin: auto;
-  width: 70%;
-  display: flex;
-  height: 88vh;
-}
 
-.container-text {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  /* flex-direction: column; */
-  width: 50%;
-  flex-wrap: wrap;
-}
-
-.text-hero {
-  font-size: 36px;
-  font-weight: 600;
-}
 .text-red {
   color: #e82222;
 }
@@ -289,8 +270,8 @@ aside i {
 
 /* .button-normal {
   /* text-decoration: none; */
-  /* color: #fff; */
-   */
+/* color: #fff; */
+*/
 /* } */
 
 .button-normal:hover {
@@ -303,14 +284,26 @@ button {
   background: none;
   color: inherit;
   border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
+.title-card {
+  margin-bottom: 5px;
+  font-size: 20px;
+}
 
+.logo-card {
+  display: flex;
+  align-items: space-around;
+}
 
+.logo-card > img {
+  margin: 10px 5px 0 3px;
+  width: 30px;
+}
 
 .center {
   display: flex;
