@@ -17,7 +17,8 @@
 }
 
 .left-side-blog {
-  flex-grow: 10;
+  flex-grow: 3;
+  width: 45%;
 }
 
 .title-blog {
@@ -32,11 +33,15 @@
 }
 
 .right-side-blog {
-  flex-grow: 1;
+  flex-grow: 2;
   display: flex;
   justify-content: end;
-  width: 500px;
-  height: 200px;
+  /* width: 500px; */
+  width: 5%;
+  /* width: 15rem; */
+  /* height: 10rem; */
+  height: 50%;
+  /* height: 200px; */
 }
 
 .link-full-blog a {
