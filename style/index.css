@@ -49,7 +49,7 @@
   .container-foto {
     width: 50%;
     display: flex;
-    justify-content: center;
+    justify-content: end;
     align-items: center;
   }
   
