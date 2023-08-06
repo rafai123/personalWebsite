@@ -289,3 +289,86 @@ button {
 .image-cover {
   object-fit: cover;
 }
+
+
+/* responsive mobile  */
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+
+  .container-card {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .container-card-left {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .card-pendidikan {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .container-nav-menu {
+    display: none;
+  }
+
+  .container-nav-menu-mobile {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: auto;
+    padding: 0 5%;
+    margin-bottom: 20px;
+  }
+
+  .container-nav-menu-mobile > a {
+    text-decoration: none;
+    font-weight: 500;
+    color: #000;
+    letter-spacing: 2px;
+  }
+
+  .container-nav-menu-mobile > .active {
+    border-bottom: 5px solid #e82222;
+  }
+
+  .container-nav-menu-mobile > a:hover {
+    border-bottom: 5px solid black;
+    color: #e82222;
+    transition: all 0.3s;
+  }
+
+  .container-footer {
+    width: 100%;
+  }
+
+  .text-footer {
+    width: 100%;
+  }
+
+  .container-card {
+    width: 100%;
+  }
+
+  .container-card-left {
+    width: 100%;
+  }
+
+  .button-normal {
+    width: 100%;
+  }
+
+  .input-bar {
+    width: 100%;
+  }
+}
+
